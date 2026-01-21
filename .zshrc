@@ -21,6 +21,10 @@ export SAVEHIST=500
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 eval "$(starship init zsh)"
 
+# sheldon
+eval "$(sheldon source)"
+
+alias google='web_search google'
 
 # Added by Antigravity
 export PATH="${HOME}/.antigravity/antigravity/bin:$PATH"
