@@ -2,7 +2,7 @@
 
 ## 本プロジェクトの概要
 
-このプロジェクトでは .zsh やその他ツール(WezTerm や NeoVim)の configファイルを管理し、別マシンでも利用できるようにするためのものです。
+このプロジェクトでは .zsh やその他ツール(Alacritty や NeoVim)の configファイルを管理し、別マシンでも利用できるようにするためのものです。
 
 ## 必須ツール (Prerequisites)
 
@@ -17,8 +17,6 @@ brew install \
   starship \
   sheldon \
   neovim \
-  --cask wezterm \
-  --cask font-jetbrains-mono-nerd-font
 ```
 
 ## セットアップ手順
