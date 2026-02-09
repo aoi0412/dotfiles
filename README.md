@@ -26,7 +26,7 @@ brew install \
 ### 1. dotfiles の取得
 
 ```bash
-git clone https://github.com/YourUsername/dotfiles.git ~/dotfiles
+git clone [https://github.com/aoi0412/dotfiles.git](https://github.com/aoi0412/dotfiles.git) ~/dotfiles
 ```
 
 ### 2. 設定ファイルの配置 (インストールスクリプト実行)
