@@ -82,65 +82,65 @@ truncation_symbol = "…/"
 
 [git_branch]
 symbol = ""
-format = '[[ $symbol $branch ](fg:color_fg0 bg:color_aqua)]($style)'
+format = '[[ $symbol $branch ]]($style)'
 
 [git_status]
-format = '[[($all_status$ahead_behind )](fg:color_fg0 bg:color_aqua)]($style)'
+format = '[[($all_status$ahead_behind )]]($style)'
 
 [nodejs]
 symbol = ""
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
+format = '[[ $symbol( $version) ]]($style)'
 
 [c]
 symbol = " "
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
+format = '[[ $symbol( $version) ]]($style)'
 
 [cpp]
 symbol = " "
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
+format = '[[ $symbol( $version) ]]($style)'
 
 [rust]
 symbol = ""
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
+format = '[[ $symbol( $version) ]]($style)'
 
 [golang]
 symbol = ""
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
+format = '[[ $symbol( $version) ]]($style)'
 
 [php]
 symbol = ""
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
+format = '[[ $symbol( $version) ]]($style)'
 
 [java]
 symbol = ""
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
+format = '[[ $symbol( $version) ]]($style)'
 
 [kotlin]
 symbol = ""
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
+format = '[[ $symbol( $version) ]]($style)'
 
 [haskell]
 symbol = ""
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
+format = '[[ $symbol( $version) ]]($style)'
 
 [python]
 symbol = ""
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
+format = '[[ $symbol( $version) ]]($style)'
 
 [docker_context]
 symbol = ""
-format = '[[ $symbol( $context) ](fg:#83a598 bg:color_bg3)]($style)'
+format = '[[ $symbol( $context) ]]($style)'
 
 [conda]
-format = '[[ $symbol( $environment) ](fg:#83a598 bg:color_bg3)]($style)'
+format = '[[ $symbol( $environment) ]]($style)'
 
 [pixi]
-format = '[[ $symbol( $version)( $environment) ](fg:color_fg0 bg:color_bg3)]($style)'
+format = '[[ $symbol( $version)( $environment) ]]($style)'
 
 [time]
 disabled = false
 time_format = "%R"
-format = '[[  $time ](fg:color_fg0 bg:color_bg1)]($style)'
+format = '[[  $time ]]($style)'
 
 [line_break]
 disabled = false
