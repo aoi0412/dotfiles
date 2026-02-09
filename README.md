@@ -17,7 +17,8 @@ brew install \
   starship \
   sheldon \
   neovim \
-  tmux
+  tmux \
+  --cask font-hack-nerd-font
 ```
 
 ## セットアップ手順
@@ -37,6 +38,7 @@ git clone https://github.com/aoi0412/dotfiles.git ~/dotfiles
 ```
 
 ## 新しい設定を追加する手順
+
 1. `~/dotfiles` 配下に実体ファイルを置く (例: `~/dotfiles/.config/myapp/config`)
 
 2. 元の場所にシンボリックリンクを貼る (`ln -s ~/dotfiles/... ~/.config/myapp/config`)
