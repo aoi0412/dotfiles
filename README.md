@@ -16,7 +16,8 @@
 brew install \
   starship \
   sheldon \
-  neovim
+  neovim \
+  tmux
 ```
 
 ## セットアップ手順

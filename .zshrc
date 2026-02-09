@@ -27,7 +27,10 @@ eval "$(starship init zsh)"
 # sheldon
 eval "$(sheldon source)"
 
-alias google='web_search google'
+# tmux
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv zsh)"
+
 
 # Added by Antigravity
 export PATH="${HOME}/.antigravity/antigravity/bin:$PATH"
+
