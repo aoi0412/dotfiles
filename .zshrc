@@ -31,6 +31,3 @@ eval "$(sheldon source)"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv zsh)"
 tmux -f ~/.config/tmux/.tmux.conf
 
-# Added by Antigravity
-export PATH="${HOME}/.antigravity/antigravity/bin:$PATH"
-
