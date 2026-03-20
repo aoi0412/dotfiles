@@ -36,3 +36,8 @@ export PATH="${HOME}/.antigravity/antigravity/bin:$PATH"
 
 # podman-composeのソケット用
 export DOCKER_HOST="unix:///run/user/$(id -u)/podman/podman.sock"
+
+. "$HOME/.local/bin/env"
+
+# uv
+export PATH="$HOME/.local/bin:$PATH"
