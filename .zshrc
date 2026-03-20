@@ -29,7 +29,9 @@ eval "$(sheldon source)"
 
 # tmux
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv zsh)"
-tmux -f ~/.config/tmux/.tmux.conf
+if [ -z "$TMUX" ]; then
+    exec tmux -f ~/.config/tmux/.tmux.conf new-session -As main
+fi
 
 # Added by Antigravity
 export PATH="${HOME}/.antigravity/antigravity/bin:$PATH"
