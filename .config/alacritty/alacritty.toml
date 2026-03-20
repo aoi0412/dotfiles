@@ -13,7 +13,6 @@ style = "Beam"
 [scrolling]
 history = 100000
 multiplier = 3
-faux_multiplier = 0
 
 
 [font]
@@ -26,3 +25,6 @@ style = "Regular"
 [font.bold]
 family = "Hack Nerd Font Mono"
 style = "Bold"
+
+[terminal]
+shell = { program = "wsl.exe", args = ["-d", "Ubuntu", "--cd", "~"]}
