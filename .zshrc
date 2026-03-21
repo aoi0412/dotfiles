@@ -46,3 +46,17 @@ export PATH="$HOME/.local/bin:$PATH"
 
 # ghq
 export GHQ_ROOT="/mnt/c/Users/tamao/ghq"
+
+# gcd — ghq + fzf でリポジトリに移動
+function gcd() {
+  local repo
+  repo=$(ghq list | fzf \
+    --prompt="repo > " \
+    --preview="ls $(ghq root)/{}" \
+    --preview-window=right:50% \
+    --height=40% \
+    --reverse \
+    --query="$1"
+  )
+  [ -n "$repo" ] && cd "$(ghq root)/$repo"
+}
