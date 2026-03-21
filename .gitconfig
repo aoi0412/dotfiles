@@ -1,0 +1,10 @@
+[user]
+	name = Aoi
+	email = aoiaoi0412.1203@gmail.com
+
+[ghq]
+	root = /mnt/c/Users/tamao/ghq
+
+[core]
+	autocrlf = input
+	editor = nvim

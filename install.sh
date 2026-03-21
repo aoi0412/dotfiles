@@ -47,4 +47,15 @@ for config_dir in "$DOTFILES_DIR/.config"/*; do
     ln -s "$config_dir" "$target_config"
 done
 
+# .gitconfig の処理
+echo "処理中: .gitconfig"
+if [ -f "$HOME/.gitconfig" ] && [ ! -L "$HOME/.gitconfig" ]; then
+    echo "バックアップ: $HOME/.gitconfig -> $BACKUP_DIR/"
+    cp "$HOME/.gitconfig" "$BACKUP_DIR/"
+    rm "$HOME/.gitconfig"
+fi
+
+echo "シンボリックリンク作成: $HOME/.gitconfig -> $DOTFILES_DIR/.gitconfig"
+ln -sf "$DOTFILES_DIR/.gitconfig" "$HOME/.gitconfig"
+
 echo "完了: dotfiles セットアップが完了しました。"

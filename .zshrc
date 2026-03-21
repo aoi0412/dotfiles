@@ -41,5 +41,8 @@ export DOCKER_HOST="unix:///run/user/$(id -u)/podman/podman.sock"
 
 . "$HOME/.local/bin/env"
 
-# uv
+# uv / ghq — ~/.local/bin に入るツール共通
 export PATH="$HOME/.local/bin:$PATH"
+
+# ghq
+export GHQ_ROOT="/mnt/c/Users/tamao/ghq"
